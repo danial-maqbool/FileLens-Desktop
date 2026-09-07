@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
-  "handoff_revision": 1,
-  "prepared_on": "2026-09-07",
+  "handoff_revision": 2,
+  "prepared_on": "2026-09-08",
   "repository": "danial-maqbool/FileLens-Desktop",
   "application_version": "0.2.0",
   "historical_release_commit": "21f50a3ff212f084dcfe668896b074faa9f0dedd",
-  "local_acceptance_status": "not_run",
+  "local_acceptance_status": "BLOCKED",
   "default_port": 8762,
   "read_first": [
     "AGENTS.md",
@@ -24,5 +24,9 @@
     "FL-07",
     "FL-08"
   ],
-  "note": "Historical test counts are not a new local acceptance result."
+  "note": "Current local acceptance is blocked by Windows symlink capability and a disposable native user/desktop session.",
+  "local_acceptance_report": "docs/LOCAL_ACCEPTANCE_REPORT.md",
+  "local_tested_commit": "7ccea955798374db1f5a423fb1eb16bd5768192c",
+  "local_followup_run": "20260908-final-acceptance-01",
+  "branch_policy": "main only; no force-push; preserve tags"
 }
