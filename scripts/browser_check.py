@@ -199,6 +199,10 @@ def main():
                 frame("Inspect extraction settings", ".workflow-grid")
             elif name == "FileLens-Desktop":
                 page.locator("#load-demo").click()
+                page.locator(".search-hit").first.wait_for(
+                    state="visible", timeout=60000
+                )
+                page.locator("#file-tags").wait_for(state="visible", timeout=30000)
                 settle()
                 checked(
                     "Demo index returns search results",
