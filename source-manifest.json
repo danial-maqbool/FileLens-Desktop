@@ -1,11 +1,12 @@
 {
   "files": {
     ".github/workflows/tests.yml": "d0776815bf22453e56ded2c46249b92be32a4940fd86e1abc22ba06ea2a192c1",
-    "HANDOFF.md": "845cf2d856e51a92dd4270e5110db6393e78e688d9fcf3dfd9f7f74d05266a4f",
+    "HANDOFF.md": "a3bd5a6a1d34b3a5ccc8783a98bb6bd77f40b8dea9f89fff3f6fb25ee848ba67",
     "app/__init__.py": "2bba0c63737d5e145db2e08d996a44183ccc621b0dd0ac091246b075d46d359f",
     "app/indexer.py": "dc09ab08f9cb3913327b7cf87f1fc1229a9789f4d94b65676ad29a4858b2d16f",
     "app/service.py": "ad7adf1da4dd07c0021ad794cbd2661cd33a32ed70a2008acb017f29d0af5c69",
     "bootstrap.py": "68c6cb01cca6a960d71ec7f6b0daf8b6ae248a08ac8bec87be96d947e5e7f050",
+    "docs/LOCAL_ACCEPTANCE_REPORT.md": "080b64c1af1dbd462f42c263cb4c10395068c99cdef23bcd6ca5867281b9b991",
     "docs/LOCAL_AGENT_PROMPT.md": "95c20578ae6677e1e771bbd1bbde0d8a514cae8bb2d5398c096091a5d2acdf14",
     "docs/LOCAL_TESTING.md": "20f8caf43106f99ebde81bfb8b634a2ae911c231194e8387ea04c36a01f8e834",
     "docs/LOCAL_TEST_RESULTS.template.md": "2b5a76d0ec8d59ef7ea3e078bc215305799df1f94fe2718d2dc4289511e23c0f",
