@@ -1,0 +1,22 @@
+{
+  "name": "FileLens Desktop",
+  "repository": "FileLens-Desktop",
+  "slug": "filelens",
+  "tagline": "Find the right file, not another folder to search.",
+  "port": 8762,
+  "color": "#087f76",
+  "version": "0.2.0",
+  "description": "Search file names and document text in folders you select. Keep the index and search history on your own computer.",
+  "topics": [
+    "python",
+    "local-first",
+    "offline",
+    "sqlite",
+    "self-hosted",
+    "desktop-search",
+    "fts5",
+    "document-search",
+    "duplicate-detection",
+    "information-retrieval"
+  ]
+}
