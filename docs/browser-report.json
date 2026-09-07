@@ -1,0 +1,30 @@
+{
+  "project": "FileLens-Desktop",
+  "browser": "143.0.7499.4",
+  "mode": "direct loopback navigation",
+  "checks": [
+    "Main view renders",
+    "Demo index returns search results",
+    "Search mode control works",
+    "Keyword filter returns one file",
+    "File tags save",
+    "Search can be saved",
+    "Semantic search returns local results",
+    "Duplicate view shows matching copies",
+    "Navigation: Search files",
+    "Navigation: Indexed folders",
+    "Navigation: Duplicates",
+    "Navigation: Saved searches",
+    "Navigation: Index jobs",
+    "Dark theme control works",
+    "Mobile viewport has no page-wide overflow",
+    "No uncaught browser errors",
+    "No external browser network request",
+    "Closing the browser leaves the worker running",
+    "Worker health remains available after browser close"
+  ],
+  "passed": 19,
+  "errors": [],
+  "seconds": 13.59,
+  "media": "Actual recorded application states, not mockups. GIF timing is illustrative."
+}
