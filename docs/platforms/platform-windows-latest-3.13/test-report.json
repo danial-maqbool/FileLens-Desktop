@@ -1,14 +1,59 @@
 {
-  "files": {
+  "repository": "FileLens-Desktop",
+  "version": "0.2.0",
+  "python": "3.13.15",
+  "platform": "Windows-2025Server-10.0.26100-SP0",
+  "tests_run": 114,
+  "passed": 108,
+  "failures": [],
+  "errors": [],
+  "skipped": [
+    {
+      "test": "tests.test_advanced_common.AdvancedCommonTests.test_actual_scanned_pdf_ocr",
+      "reason": "Tesseract is required for this OCR integration test."
+    },
+    {
+      "test": "tests.test_advanced_common.AdvancedCommonTests.test_actual_tesseract_image_ocr",
+      "reason": "Tesseract is required for this OCR integration test."
+    },
+    {
+      "test": "tests.test_advanced_common.AdvancedCommonTests.test_mixed_pdf_keeps_native_header_and_scanned_content",
+      "reason": "Tesseract is required for this mixed-page OCR test."
+    },
+    {
+      "test": "tests.test_upgrade.UpgradeTests.test_ocr_index_finds_image_text",
+      "reason": "Tesseract integration dependency."
+    },
+    {
+      "test": "tests.test_vault.VaultTests.test_ciphertext_file_permissions",
+      "reason": "POSIX mode test."
+    },
+    {
+      "test": "tests.test_vault.VaultTests.test_vault_symlink_is_rejected",
+      "reason": "Creating symbolic links may need a Windows developer setting."
+    }
+  ],
+  "seconds": 14.88,
+  "packages": {
+    "cryptography": "50.0.0",
+    "keyring": "25.7.0",
+    "Pillow": "12.3.0",
+    "pypdf": "6.17.0",
+    "pdfplumber": "0.11.10",
+    "pdfminer.six": "20260107",
+    "pypdfium2": "5.13.0",
+    "numpy": "2.3.5",
+    "scikit-learn": "1.9.0"
+  },
+  "tools": {
+    "tesseract": false,
+    "ffmpeg": false,
+    "ffprobe": false
+  },
+  "source_sha256": {
     "app/__init__.py": "2bba0c63737d5e145db2e08d996a44183ccc621b0dd0ac091246b075d46d359f",
     "app/indexer.py": "dc09ab08f9cb3913327b7cf87f1fc1229a9789f4d94b65676ad29a4858b2d16f",
     "app/service.py": "ad7adf1da4dd07c0021ad794cbd2661cd33a32ed70a2008acb017f29d0af5c69",
-    "examples/README.txt": "5819dbf212ba2f8dad8c038a577b59b91db551be05a31dcf0e0260a432f2e56a",
-    "examples/home/warranty-receipt.txt": "4de6c8ec2d6c0ddbaad29bd6d3d1bcb90ac86c09e1e28056192d35a911d6c8c3",
-    "examples/notes/transformer-study.md": "8fd4f6ee124d2f14a3fc9cce79e419dbdc59d5bce8cd46032166f1fea9452658",
-    "examples/work/project-tasks.csv": "acc8fa9185f2a1e4ccd9b6e55dc2ba8237121c6e19a15376d55a128796c2e2cf",
-    "examples/work/quarterly-review.md": "b68060a2c60c2cee491868cac643159e89044072b20f262588b0b1233c518bfb",
-    "examples/work/warranty-copy.txt": "4de6c8ec2d6c0ddbaad29bd6d3d1bcb90ac86c09e1e28056192d35a911d6c8c3",
     "localdesk/__init__.py": "b7b1b5feb9aafcd71ab8d8021727bfebab3f16263639ed62ef054a7827f23032",
     "localdesk/base.py": "8fb358cf43f590df0b6f1f552a49ddf5772f12a9e00574572ff02d7bbbb0c941",
     "localdesk/credentials.py": "a346b035db93c7ebd5bf4710d03ca5ec7216e55a6cd91d4f7da7408c09e0c8ad",
@@ -25,10 +70,10 @@
     "localdesk/services.py": "3fa63e1d0ea9e69360e61e18a2a1390297a0c350056f02f98833ca8b7583d824",
     "localdesk/storage.py": "36d60fa46adcdf4d31ff960079ff369fe0c354b930efe4cafb20ded9ba127de6",
     "localdesk/vault.py": "7cb79c98af31300f1c378b5954923a33c1c8fce3660b689c28103459da90b6ff",
-    "scripts/browser_check.py": "fd01089c954266c74c9d56cc65f1217c551f24d59349aaf30c185214c2dfbdef",
-    "scripts/materialize.py": "22bcf016b4ffed55960a2ef7ae4737f1e5b8bb716254fcf7a0319cc8e11e3876",
-    "scripts/prepare_release.py": "4a5a1c4ec145ee4c8e3c4c810a9fbeddf07faeaa4b4e12d078e4be77d10808c6",
-    "scripts/verify.py": "9e1d4074e70e7d3daa56ceb0df9214b0d2ad3d429238f6d0f451ab91ebfd4ca7",
+    "web/app.js": "ad80eda9f8ac82df28771c4ef7b14c27b1ec79267776076f557be1fb49e88c7c",
+    "web/common.js": "625de374a439c0873c3c5fdf11590b0369c876afd134d407ecd8fb64e0ff1107",
+    "web/index.html": "f843fd4cccb352ca72b9e76bb187528c24cfab1be4be5395f9a5499de366b570",
+    "web/style.css": "6ad47d28863d476f2825639ba8edfcb1789f3b7d07c2bafa391ab33b7bf87698",
     "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "tests/fixtures.py": "9afbf79cf27eb6b401abb9ab68cd18e5e879515f64ca876becfb3097d724e0d8",
     "tests/support.py": "c99d26cbb11e729a1e171c8fdd9151765b9469f7d20ab8123cabd824b9655063",
@@ -38,10 +83,8 @@
     "tests/test_portability.py": "1b0db0afffa20076b41d75381cf9632d456af70bad206e5c03959c7e93fed1e0",
     "tests/test_safety.py": "42176e0b5f3fd87b20d1f9aad8f2755bfb505e6338fac8a761fd6b2878c41b37",
     "tests/test_upgrade.py": "95c9b3372b8b503abd0162327c4506a76d59dd26a3a56f77b677e6d9e7f0d95f",
-    "tests/test_vault.py": "447498c2397f30172198c293006420b252e97de1447afb19c058d359140a3e20",
-    "web/app.js": "36d7a4e7572ef9fd4af22c9d58f420e795031dd580aa3b2aa21914a3ffbcd203",
-    "web/common.js": "60555fee5e603be53603e7dd75617a89f5248233eabab8fa7fdcffa1a3b9d7bf",
-    "web/index.html": "9df3fd0d7e346501fe866c3a3f53b9d2498909ad0c4de690546a0936ca41122e",
-    "web/style.css": "acde3100149099b06ffc796be508d5005f843139acc8e083c776f4244ba94c1a"
-  }
+    "tests/test_vault.py": "447498c2397f30172198c293006420b252e97de1447afb19c058d359140a3e20"
+  },
+  "github_run_id": "34107461212",
+  "github_commit": "238eb4d8d826f8a1b689610b17b41d0e5b056911"
 }

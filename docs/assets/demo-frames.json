@@ -1,0 +1,27 @@
+[
+  {
+    "frame": 1,
+    "caption": "Start with a local workspace",
+    "duration_ms": 1800
+  },
+  {
+    "frame": 2,
+    "caption": "Search the local document index",
+    "duration_ms": 1800
+  },
+  {
+    "frame": 3,
+    "caption": "Read matching text without opening the source",
+    "duration_ms": 1800
+  },
+  {
+    "frame": 4,
+    "caption": "Rank local document meaning without a cloud model",
+    "duration_ms": 1800
+  },
+  {
+    "frame": 5,
+    "caption": "Compare byte-identical copies",
+    "duration_ms": 1800
+  }
+]
