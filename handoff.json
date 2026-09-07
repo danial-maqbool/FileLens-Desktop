@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "handoff_revision": 1,
+  "prepared_on": "2026-09-07",
+  "repository": "danial-maqbool/FileLens-Desktop",
+  "application_version": "0.2.0",
+  "historical_release_commit": "21f50a3ff212f084dcfe668896b074faa9f0dedd",
+  "local_acceptance_status": "not_run",
+  "default_port": 8762,
+  "read_first": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "docs/LOCAL_TESTING.md"
+  ],
+  "agent_prompt": "docs/LOCAL_AGENT_PROMPT.md",
+  "local_report_directory": "artifacts/local-qa",
+  "required_cases": [
+    "FL-01",
+    "FL-02",
+    "FL-03",
+    "FL-04",
+    "FL-05",
+    "FL-06",
+    "FL-07",
+    "FL-08"
+  ],
+  "note": "Historical test counts are not a new local acceptance result."
+}
